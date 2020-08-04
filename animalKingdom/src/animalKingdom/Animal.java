@@ -50,6 +50,6 @@ abstract class Animal{
   //When the object is console logged, make the info displayed useful
   @Override
   public String toString(){
-    return "id: " + id + " name: " + name + " yearNamed: " + yearDiscovered;
+    return "Animals {id: " + id + ", name: " + name + ", yearNamed: " + yearDiscovered + "}\n";
   }
 }
